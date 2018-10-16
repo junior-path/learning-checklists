@@ -1,5 +1,5 @@
-# checklist-ptbr
+# checklists
 
-Ao longo dos anos, tenho ajudado muitos aprendizes do início até obtenção de um emprego, mas sempre de forma desestruturada.
+Over the years, I have helped many newcomers start learning programming and later get their first job.
 
-Esse conjunto de checklists permite iniciantes saberem o que devem estudar, desde início, com o propósito de trabalhar em alguma empresa web. Também vai me ajudar com meu grupo de apoio àquelas pessoas que dou mentoria.
+This set of checklist will help beginners from the get go, for each area/market they decide to work on. I will also be able to stop repeating myself.
