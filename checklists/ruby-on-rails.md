@@ -30,6 +30,7 @@ At this level, you're learning very general concepts about many different topics
 - [ ] HTTP: describe an HTTP request 
 - [ ] OOP: Understand the concept of Object Oriented Programming and classes.
 - [ ] Ruby: have seen syntax for functions (`def`), classes (`class`) and how to instance objects.
+- [ ] Ruby: what is an array? What is a hash? What's the difference between the two?
 - [ ] Understand what is Git.
 - [ ] Understand what is Github.
 - [ ] Understand what is a database.
@@ -49,7 +50,14 @@ Beyond Rails:
 - [ ] Explain what is a gem.
 - [ ] Have cloned a Github repository.
 - [ ] Understand the purpose of SQL.
+- [ ] Postgres: what is a table? What are the columns in a table?
 - [ ] What's the difference between some databases.
+
+It's also important to look at some very basic data structures and algorithms.
+
+- [ ] What is the purpose of data structures?
+- [ ] What is a binary search?
+- [ ] What is a graph?
 
 Fontes:
 
@@ -61,21 +69,56 @@ At this point you know the basic concepts and how they fit together, although yo
 
 You're also learning new concepts, although from a very high level. Meanwhile, you're getting deeper into some concepts from the previous level.
 
+- [ ] Ruby: what is the Enumerable module.
+- [ ] Postgres: what are indexes? Why are they important? What are multi-column indexes?
 - [ ] Understand the purpose of the Sidekiq gem.
 - [ ] Understand the basics about message queues, what is it and why they are used.
 - [ ] Understand why Docker exists and what problems it's trying to solve.
+
+Continue on algorithms.
+
+- [ ] Understand what is Asymptotic notation (example: `O(n)`) and why it's important.
+- [ ] Solve: in an array from 1..20, remove even numbers, leaving odd numbers.
+- [ ] Solve: in an array from 1..20, return a new array where each element is multiplied by itself (example: `[1, 2, 3, n..., 20]` becomes `[1, 4, 9, n^2..., 400]`).
+- [ ] Ruby: what is the `map` function.
+- [ ] Ruby: what is the `reduce` function.
 
 ## Checklist 3: Intermediary
 
 At this level you're comfortable doing research and solving problems. You still need help with architectural decisions and you struggle a bit with some concepts, but you can accomplish tasks with confidence.
 
 - [ ] Docker
+- [ ] What is [P vs NP problems](https://en.wikipedia.org/wiki/P_versus_NP_problem).
+- [ ] What are threads? What's Ruby GIL?
+
+This is also a good moment to get introduced to some of the main [data structures](https://www.geeksforgeeks.org/data-structures/).
+
+- [ ] Get deeper into Asymptotic notation, being able to analyze a function and come up with its complexity notation.
+- [ ] Linked List
+- [ ] Stack
+- [ ] Queue
+- [ ] Linked List vs Array
+- [ ] Hash Maps
+- [ ] Hash Tables
+- [ ] Hash Functions
+- [ ] Tree Traversal
+- [ ] Binary Trees: includes algorithms like Binary Search Trees (BST), Self-Balancing Binary Search Tree, Breadth First Traversal (BFS) and Depth First Traversal (DFS).
+
+It's also time to look deeper into Postgres.
+
+- [ ] PG Indexes: B-Tree and sorting (default)
+- [ ] PG Indexes: Hash
+- [ ] PG Indexes: GiST (Generalized Search Tree)
+- [ ] PG Indexes: GIN (Generalized Inverted Indexes)
 
 ## Checklist 4: Advanced
 
+- [ ] CAP Theorem
 - [ ] https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
 - [ ] http://slinkp.com/falsehoods-programmers-believe-about-apis.html
 - [ ] https://github.com/kdeldycke/awesome-falsehood
 - [ ] https://en.wikipedia.org/wiki/CAP_theorem
 
 ## Checklist 5: Expert
+
+Once you're at this point, you will know what to study.
