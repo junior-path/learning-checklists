@@ -12,9 +12,9 @@ This checklist is meant for people who are starting their career with Ruby on Ra
 
 This include other technologies that are commonly used alongside Ruby on Rails, as well as ethics and productivity.
 
-## How to progress on the checklist
+## How to progress on this checklist
 
-Pick an item, then go to Google. In some case there will be links for resources.
+Pick an item, then Google. In some case there will be links for resources.
 Some items require basic understanding about concepts while others mention actual execution.
 
 Try to follow the items in order. They're structured in a way so that you will acquire understanding in more cohesive manner.
@@ -27,7 +27,7 @@ At this level, you're learning very general concepts about many different topics
 
 - [ ] HTML: what's its purpose? Create an HTML file in your computer and show an image in that page.
 - [ ] CSS: what's its purpose? Create a CSS stylesheet in an HTML page, and change some colors to get a basic understanding of how it's used.
-- [ ] HTTP: describe an HTTP request 
+- [ ] HTTP: describe an HTTP request cycle. What's a request? What's a response? What are HTTP status codes? What are HTTP request/response headers?
 - [ ] OOP: Understand the concept of Object Oriented Programming and classes.
 - [ ] Ruby: have seen syntax for functions (`def`), classes (`class`) and how to instance objects.
 - [ ] Ruby: what is an array? What is a hash? What's the difference between the two?
@@ -51,7 +51,10 @@ Beyond Rails:
 - [ ] Have cloned a Github repository.
 - [ ] Understand the purpose of SQL.
 - [ ] Postgres: what is a table? What are the columns in a table?
-- [ ] What's the difference between some databases.
+- [ ] What's the difference between some databases like Postgres, MySQL, SQLite and Redis.
+- [ ] What is automated testing? What's unit tests? Acceptance tests? What's TDD and what's BDD?
+- [ ] What's RSpec? What's Capybara?
+- [ ] Write first RSpec test. [This tutorial](https://semaphoreci.com/community/tutorials/getting-started-with-rspec) is really good.
 
 It's also important to look at some very basic data structures and algorithms.
 
@@ -70,10 +73,16 @@ At this point you know the basic concepts and how they fit together, although yo
 You're also learning new concepts, although from a very high level. Meanwhile, you're getting deeper into some concepts from the previous level.
 
 - [ ] Ruby: what is the Enumerable module.
+- [ ] Ruby: what are exceptions and how to use them? [This article](http://blog.honeybadger.io/a-beginner-s-guide-to-exceptions-in-ruby/) is a good start.
 - [ ] Postgres: what are indexes? Why are they important? What are multi-column indexes?
+- [ ] HTTP: what is REST? [Article](https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340).
 - [ ] Understand the purpose of the Sidekiq gem.
 - [ ] Understand the basics about message queues, what is it and why they are used.
 - [ ] Understand why Docker exists and what problems it's trying to solve.
+- [ ] Understand difference between RSpec and TestUnit gems.
+- [ ] Understand RSpec's subject, let, hooks and exceptions. [This tutorial](https://semaphoreci.com/community/tutorials/rspec-subject-helpers-hooks-and-exception-handling) is pretty good.
+- [ ] Have written automated tests in Rails, specifically Model tests and Capybara tests. [This ebook](https://semaphoreci.com/ebooks/rails-testing-handbook) has some good examples. You can ignore Cucumber for now.
+- [ ] Understand what are test stubs, mocks and doubles. [This tutorial](https://semaphoreci.com/community/tutorials/rspec-subject-helpers-hooks-and-exception-handling) is a good start.
 
 Continue on algorithms.
 
@@ -88,7 +97,7 @@ Continue on algorithms.
 At this level you're comfortable doing research and solving problems. You still need help with architectural decisions and you struggle a bit with some concepts, but you can accomplish tasks with confidence.
 
 - [ ] Docker
-- [ ] What is [P vs NP problems](https://en.wikipedia.org/wiki/P_versus_NP_problem).
+- [ ] What are [P vs NP problems](https://en.wikipedia.org/wiki/P_versus_NP_problem).
 - [ ] What are threads? What's Ruby GIL?
 
 This is also a good moment to get introduced to some of the main [data structures](https://www.geeksforgeeks.org/data-structures/).
