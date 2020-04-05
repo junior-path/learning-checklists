@@ -1,16 +1,20 @@
-# Ruby on Rails
-
-[WIP]
+# From zero to Ruby on Rails
 
 ## What's this?
 
-This is a list of things to be learned in order to help guide programming students.
+This list guides programming students on what they should learn and has a focus on Ruby and Ruby on Rails.
+
+If you are just getting started with programming, why start with Rails and not C? Well, this checklist is for people who don't have the luxury of spending months and years studying all theory, or for people in a hurry to get to results, to get a job.
+
+When in college, students will usually start with C for studying algorithms, practicing memory management and other fields. That configuration is very valuable as it imprints in the student's brain how to deal with bare topics that are very close to mathematics, without the abstractions that new and modern languages use to hide away that complexity. When students get out of college, they have deep knowledge on the basic of computer science (depending on the institution, of course).
+
+For everyday's job in IT, though, rarely will someone need to deal with memory management or binary trees until you have reached a level close to seniority. Databases like Postgres will implement indexes using binary trees, and so you will not be in a hurry to learn how to implement them right away before using it. You won't need to memorize Quicksort before you can use Ruby's `sort` method.
+
+The loss in basic computing science knowledge should be compensated with fast start in developing real systems that can be used by real customers. It is the student's responsibility to pick up on the computer science topics that were not covered in this guide later when some basic progress has been made.
 
 ## Who's this for?
 
-This checklist is meant for people who are starting their career with Ruby on Rails and have no experience with programming, but need a guide on what to learn next.
-
-This include other technologies that are commonly used alongside Ruby on Rails, as well as ethics and productivity.
+This checklist is meant for people who are starting their career with a focus on Ruby on Rails and have not enrolled in a college course, nor have experience with programming, but need a guide on what to learn next. This include other technologies that are commonly used alongside Ruby on Rails, as well as ethics and productivity.
 
 ## How to progress on this checklist
 
@@ -25,19 +29,35 @@ It is fine not to follow the checklist items in order, though. Some people will 
 
 At this level, you're learning very general concepts about many different topics, without diving into any of them. You're trying to make sense of it all.
 
+Start with some concepts:
+
 - [ ] HTML: what's its purpose? Create an HTML file in your computer and show an image in that page.
 - [ ] CSS: what's its purpose? Create a CSS stylesheet in an HTML page, and change some colors to get a basic understanding of how it's used.
-- [ ] HTTP: describe an HTTP request cycle. What's a request? What's a response? What are HTTP status codes? What are HTTP request/response headers?
+- [ ] HTTP: What is HTTP? Why was it created? Where is it used? 
+- [ ] HTTP: describe an HTTP request cycle (request, response, status codes, headers, body). [This article](https://blog.skylight.io/the-lifecycle-of-a-request/) is good and clear on this subject.
+- [ ] Basics on how to use the Unix (Linux/Mac) terminal, how to list files, change and create directories.
+- [ ] Know how to create a Ruby file in the terminal and execute it.
+- [ ] JSON: understand what it is and memorize its format.
+
+It's also important to look at some very basic data structures and algorithms.
+
+- [ ] What is the purpose of data structures? List some data structures.
+- [ ] What is a graph? What are some general problems in society that can be modeled as graphs?
+- [ ] What is a binary search?
+
+Continue with some concepts:
+
 - [ ] OOP: Understand the concept of Object Oriented Programming and classes.
 - [ ] Ruby: have seen syntax for functions (`def`), classes (`class`) and how to instance objects.
 - [ ] Ruby: what is an array? What is a hash? What's the difference between the two?
 - [ ] Understand what is Git.
 - [ ] Understand what is Github.
 - [ ] Understand what is a database.
-- [ ] Basics on how to use the Unix (Linux/Mac) terminal, how to list files, change and create directories.
+- [ ] Explain what is a Ruby gem.
 
 Then, it's important to understand the basic structure of a Ruby on Rails application. [This tutorial](https://guides.rubyonrails.org/getting_started.html) goes through some of the items below and is recommended.
 
+- [ ] What is Ruby on Rails? Why was it created? Why is it used instead of just regular Ruby or HTML?
 - [ ] Basics about Routes: what are `resources`, `root_path`, `rake routes`
 - [ ] Basics about Controllers: what are the 7 actions? How are model instances loaded in controllers?
 - [ ] Basics about Views: how are view files organized? Understand what is ERB. How is Ruby code injected inside views? What are helpers and how do you use them?
@@ -47,8 +67,8 @@ Then, it's important to understand the basic structure of a Ruby on Rails applic
 
 Beyond Rails:
 
-- [ ] Explain what is a gem.
-- [ ] Have cloned a Github repository.
+- [ ] Be able to explain what is an API.
+- [ ] Make sure you have cloned a Github repository.
 - [ ] Understand the purpose of SQL.
 - [ ] Postgres: what is a table? What are the columns in a table?
 - [ ] What's the difference between some databases like Postgres, MySQL, SQLite and Redis.
@@ -56,13 +76,7 @@ Beyond Rails:
 - [ ] What's RSpec? What's Capybara?
 - [ ] Write first RSpec test. [This tutorial](https://semaphoreci.com/community/tutorials/getting-started-with-rspec) is really good.
 
-It's also important to look at some very basic data structures and algorithms.
-
-- [ ] What is the purpose of data structures?
-- [ ] What is a binary search?
-- [ ] What is a graph?
-
-Fontes:
+Sources:
 
 - https://guides.rubyonrails.org
 
@@ -71,6 +85,14 @@ Fontes:
 At this point you know the basic concepts and how they fit together, although you don't know how to use them. You often ask for help and you're starting to put more effort into the actual commands needed to get things done.
 
 You're also learning new concepts, although from a very high level. Meanwhile, you're getting deeper into some concepts from the previous level.
+
+Let's study some of the main data structures:
+
+- [ ] Stack
+- [ ] Queue
+- [ ] Binary tree
+
+Now, back to Ruby.
 
 - [ ] Ruby: what is the Enumerable module.
 - [ ] Ruby: what are exceptions and how to use them? [This article](http://blog.honeybadger.io/a-beginner-s-guide-to-exceptions-in-ruby/) is a good start.
@@ -104,8 +126,6 @@ This is also a good moment to get introduced to some of the main [data structure
 
 - [ ] Get deeper into Asymptotic notation, being able to analyze a function and come up with its complexity notation.
 - [ ] Linked List
-- [ ] Stack
-- [ ] Queue
 - [ ] Linked List vs Array
 - [ ] Hash Maps
 - [ ] Hash Tables
