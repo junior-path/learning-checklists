@@ -1,8 +1,8 @@
 # checklists
 
-Over the years, I have helped many newcomers start learning programming and later get their first job.
+Over the years, I have helped many newcomers learn to program and later get their first job. Every time the process repeated itself and we had to figure out again what to do next.
 
-This set of checklist will help beginners from the get go, for each area/market they decide to work on. I will also be able to stop repeating myself.
+The checklists in this repo are a solution to that problem. It will help beginners from the get go, for each area/market they decide to work on. I will also be able to stop repeating myself, so win-win.
 
 ## How to use it
 
@@ -16,7 +16,7 @@ The challenge is that the checklist is constantly changing. If you don't mind ab
 
 ### Strategy 2: copy/paste into your todo app
 
-If you use Todo apps like Things and Omnifocus, you can just copy and paste the markdown.
+If you use Todo apps like Todoist, Things and Omnifocus, you can just copy and paste the markdown. Dropbox Paper is also a good place to paste.
 
 ### Strategy 3: fork the repo
 
